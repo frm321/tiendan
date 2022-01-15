@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}/*       *{} Lo que esta dentro de parentecis va modificar todo el doc      */
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+    color: #707070;
+    text-align: center;
+}
+
+h1{
+    color: #3B3B3B;
+    font-size: 2m;
+}
+
+h3{
+    color: #3B3B3B;
+    font-size: 1.375em;
+}
+
+/* Estilos de headernav*/
+
+
+#headernav {
+    background: #ECECEC;
+}
+
+.link-menu {
+    color: #707070;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6984E5;
+}
+
+
+/* Estilos de headernav*/
+
+#principal {
+    margin-top: 3.125em;
+    min-height: 28.125em;
+}
+
+
+/* Estilos de headernav*/
+
+#pie {
+    background: #3B3B3B;
+    color: #FFFFFF;
+    height: 4.6875em;
+}
+ 
