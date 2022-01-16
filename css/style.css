@@ -39,19 +39,37 @@ a:hover {
 }
 
 
-/* Estilos de headernav*/
+/* Estilos productos*/
 
 #principal {
     margin-top: 3.125em;
-    min-height: 28.125em;
+    /*min-height: 28.125em;*/
+}
+
+.espacio{
+    padding-top: 3,125;
+
 }
 
 
-/* Estilos de headernav*/
+/* Estilos de productos*/
+.producto{
+    background: -webkit-linear-gradient(90deg,#6859EA 10%, #6ACBE0 90%);
+    background: -moz-linear-gradient(90deg,#6859EA 10%, #6ACBE0 90%);
+    background: linear-gradient(90deg,#6859EA 10%, #6ACBE0 90%);
+    color: #FFFFFF;
+}
 
+.espacio-row{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+
+/* Estilos de pie*/
+ 
 #pie {
     background: #3B3B3B;
     color: #FFFFFF;
-    height: 4.6875em;
+    height: 4.6875em;   
 }
- 
