@@ -62,7 +62,7 @@ a:hover {
 
 .espacio-row{
     padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom:3em;
 }
 
 
@@ -72,4 +72,13 @@ a:hover {
     background: #3B3B3B;
     color: #FFFFFF;
     height: 4.6875em;   
+}
+.sep{
+    margin-top: 1em;
+}
+.sepa{
+    margin-bottom: 8em;
+}
+.sepai{
+    margin-bottom: 16em;
 }
