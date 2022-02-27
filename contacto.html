@@ -1,84 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="/css/reset.css">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"   
-                           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
-                           crossorigin="anonymous">
-                           
-    <link rel="stylesheet" href="css/style.css">
-    
-    <title>Producto</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contacto</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='css/reset.css'>
+    <link rel='stylesheet' type='text/css' href='css/styles.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-  <header id="headernav">
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/logo.png" width="150" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-              <a class="nav-link link-menu" arial-current="page" href="index.html">Inicio</a>
-              <a class="nav-link active link-menu" href="producto.html">Producto</a>
-              <a class="nav-link link-menu" href="contacto.html">Contacto</a>
+    <header id="headernav">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                  <img src="images/logo.png" width="150" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                  <a class="nav-link link-menu active" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link link-menu" href="producto.html">Producto</a>
+                  <a class="nav-link link-menu" href="contacto.html">Contacto</a>
+                </div>
+              </div>
             </div>
-          </div>
-    </nav>  
+          </nav>
+    </header>
 
-  </header> 
-
-
-<selection>
-    <div class="container">
-        <div class="row justify-content-md-center espacio-row">
-            <div class="col-md-6">
-                <h1>Producto</h1>
-                <p>
-                    Selecciona el smartwatch que mas se apegue a tu personalidad
-                </p>
-          </div>
-        </div>
-    </div>
-
-<form action="/D">
-    <div class="container sepa">
-        <div class="row justify-content-md-center">
-            <div class="col-md-6">
-                <input type="email" class="form-control sep" id="exampleFormControlInput1" placeholder="Nombre">
-                <input type="email" class="form-control sep" id="exampleFormControlInput1" placeholder="Correo electronico">
-                <input type="email" class="form-control sep" id="exampleFormControlInput1" placeholder="Asunto">
-                <textarea class="form-control sep" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <button type="button" class="btn btn-primary sep">Enviar</button>
+    <section id="contacto">
+        <div class="container">
+            <div class="row justify-content-md-center contacto pt-5 text-center">
+                <div class="col-md-6">
+                    <h1>Ponte en contacto</h1>
+                    <p>
+                        Nos interesa conocer tu opinión, sugerencias, quejas y responder a tus preguntas.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-md-center espacio-row text-center">
+                <div class="col-md-6">
+                    <form>
+                        <input type="text" class="form-control mb-3" id="floatingInput" placeholder="Nombre">
+                        <input type="email" class="form-control mb-3" id="floatingEmail" placeholder="Correo electrónico">
+                        <input type="text" class="form-control mb-3" id="floatingAsunto" placeholder="Asunto">
+                        <textarea  type="textarea" class="form-control mb-3" id="floatingMensaje" placeholder="Escribe aquí el mensaje"></textarea>
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                      </form>
+                      <br>
+                </div>
             </div>
         </div>
-    </div>
-</form>
-    
+    </section>
 
-
-
-</selection>
-
-  <footer id="pie">
-    <div class="container">
-      <div class="row justify-content-md-center">
-        <div class="col-md-8">
-          <P>
-            SMARTWATCH | Derechos reservados 2022
-          </P>
+    <footer id="pie">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-4">
+                    Smartwatch | Todos los derechos reservados 2022
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
-
+    </footer>
 </body>
 </html>

@@ -1,29 +1,30 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik");
-
-*{
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-}/*       *{} Lo que esta dentro de parentecis va modificar todo el doc      */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: 'Rubik', sans-serif;
-    font-size: 1em;
+    font-size: 100%;
     color: #707070;
     text-align: center;
 }
 
-h1{
-    color: #3B3B3B;
-    font-size: 2m;
+h1 {
+    color: #3b3b3b;
+    font-size: 2em;
+    color: #3b3b3b;
+    font-size: 2em;
 }
 
-h3{
-    color: #3B3B3B;
+h3 {
+    color: #3b3b3b;
     font-size: 1.375em;
 }
 
-/* Estilos de headernav*/
-
+/**************************************/
+/* Estilos de headernav */
 
 #headernav {
     background: #ECECEC;
@@ -35,50 +36,78 @@ h3{
 }
 
 a:hover {
-    color: #6984E5;
+    color: #6984E6;
 }
 
-
-/* Estilos productos*/
+/**************************************/
+/* Estilos de principal */
 
 #principal {
     margin-top: 3.125em;
-    /*min-height: 28.125em;*/
-}
-
-.espacio{
-    padding-top: 3,125;
-
+    min-height: calc(100vh - 4.6875em);
+    text-align: center;
 }
 
 
-/* Estilos de productos*/
-.producto{
-    background: -webkit-linear-gradient(90deg,#6859EA 10%, #6ACBE0 90%);
-    background: -moz-linear-gradient(90deg,#6859EA 10%, #6ACBE0 90%);
-    background: linear-gradient(90deg,#6859EA 10%, #6ACBE0 90%);
-    color: #FFFFFF;
-}
+/**************************************/
+/* Estilos de pie */
 
-.espacio-row{
-    padding-top: 3em;
-    padding-bottom:3em;
-}
-
-
-/* Estilos de pie*/
- 
 #pie {
-    background: #3B3B3B;
-    color: #FFFFFF;
-    height: 4.6875em;   
+    background: #3b3b3b;
+    color: #fff;
+    height: 4.6875em;
 }
-.sep{
-    margin-top: 1em;
+
+/**************************************/
+/* Estilos de producto */
+
+#producto {
+    background: -webkit-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    background: -moz-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    background: linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    color: floralwhite;
+    text-align: center;
 }
-.sepa{
-    margin-bottom: 8em;
+
+.espacio-row {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: floralwhite;
 }
-.sepai{
-    margin-bottom: 16em;
+
+/**************************************/
+/* Estilos de contacto */
+
+#contacto {
+    margin-top: 3.125em;
+    text-align: center;
+}
+ 
+.contacto {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: #3b3b3b;
+    text-align: center;
+}
+
+
+/**************************************/
+/* Estilos de video */
+
+.video-nuevo {
+  background-color: #707070;
+  color: white;
+  border: teal;
+  border-radius: 1em;
+  width: 8em;
+  height: 2em;
+}
+
+.video-nuevo:hover {
+  background-color: slategray;
+  color: white;
+  border: teal;
+  border-radius: 1em;
+  width: 5em;
+  height: 2em;
 }
